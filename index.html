@@ -10,13 +10,34 @@
     />
   </head>
   <body>
-    <header>
+    <header role="header">
       <section class="topHeader">
         <div class="burgermenu">
-          <i class="fa fa-bars"></i>
+          <!-- <div> -->
+          <button
+            role="button"
+            aria-controls="primaryNavigation"
+            aria-describedby="message-menu-button"
+            aria-expanded="false"
+            aria-label="menu-knap"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
           <p>MENU</p>
           <i class="fa-solid fa-magnifying-glass"></i>
+          <!-- </div> -->
+          <!-- <nav class="hidden" id="primaryNavigation">
+            <ul>
+              <li><a href="#" aria-label="Gå til live news site">Live</a></li>
+              <li><a href="#" aria-label="Gå til kontakt side">Kontakt os</a></li>
+              <li><a href="#" aria-label="Gå til redaktionen side">Redaktionen</a></li>
+            </ul>
+          </nav> -->
+          <!-- <div hidden>
+            <span id="message-menu-button">Klik her for at vise menuen</span>
+          </div> -->
         </div>
+
         <div class="logo">
           <img src="8052f8daa5cfa53d6808c07f6f5b03c0.webp" alt="Logo" />
         </div>
